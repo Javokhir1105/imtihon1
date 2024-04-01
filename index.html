@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
     <title>Document</title>
 </head>
 <body>
     <div class="header">
         <div class="container">
-           <div class="header__container">
+           <div data-aos="fade-up" class="header__container">
               <div class="heaader__a2">
                 <img class="header__img3" src="./image/images.jpg" width="30" height="30">
                  <a class="header__a" href="https://www.instagram.com/bellezzio/">BELLEZZIO</a>
                 </div>
-               <h2 class="header__h2">MEBEL FABRIKASI</h2>
+               <h2 class="header__h2" id="menu">MEBEL FABRIKASI</h2>
                <h1 class="header__h1">BELLEZZIO</h1>
                <DIV class="header__list">
                   <ul class="header__item">
@@ -23,7 +24,7 @@
                   </ul>
                   <ul class="header__item2">
                     <!-- <img class="header__img2" src="./image/IMG_8632-removebg_1_.webp" width="400" height="450"> -->
-                    <button class="header__button">RO'YXATDAN O'TISH</button>
+                    <button class="header__button"><a href="#malumot">RO'YXATDAN O'TISH</a></button>
                   </ul>
                   <ul class="header__item">
                     <img class="header__img" src="./download.png" width="40" height="40">
@@ -33,16 +34,16 @@
                </DIV>
            </div>
            <div class="header__container2">
-               <div class="header__list2">
-                <ul class="header__link">
+               <div data-aos="fade-up" class="header__list2">
+                <ul data-aos="fade-up" class="header__link">
                     <h3 class="header__h3">15</h3>
                     <i>yildan beri xizmat ko'rsatuvchi yirik mebel fabrikasi</i>
                 </ul>
-                <ul class="header__link">
+                <ul data-aos="fade-up" class="header__link">
                     <h3 class="header__h3">11100</h3>
                     <i>mamnun bo'lgan mijozlarimiz soni</i>
                 </ul>
-                <ul class="header__link">
+                <ul data-aos="fade-up" class="header__link">
                     <h3 class="header__h3">70+</h3>
                     <i>mamnun bo'lgan mijozlarimiz sonixodimlarimiz faoliyat olib borishadi</i>
                 </ul>
@@ -54,15 +55,15 @@
     <div class="hero">
         <div class="container2">
             <div class="hero__container">
-                <h1 class="hero__h1">BIZ HAQIMIZDA</h1>
+                <h1 data-aos="fade-down" class="hero__h1">BIZ HAQIMIZDA</h1>
                 <div class="hero__list">
-                    <img src="./image/telegram-cloud-docum.webp" width="600" height="500">
-                    <div class="hero__item">
+                    <img data-aos="fade-right" class="hero__img" src="./image/telegram-cloud-docum.webp" width="650" height="500">
+                    <div data-aos="fade-left" class="hero__item">
                         <ul class="hero__link">Bellezzio mebel korxonamiz 2008 yilda tashkil etilgan boʻlib, biz nafaqat mebel ishlab chiqaramiz, balki uyingizga qulaylik va xashamat bagʻishlaymiz. 15 yil davomida 3 kishi va 2 dona dastgoh bilan boshlangan faoliyatimiz hozirgi kunda 70 kishilik ahil jamoa va yevropa standartlariga mos keluvchi mebel dastgohlariga ega.</ul>
                         <ul class="hero__link">Biz mijozlarning imkoniyatlari va mebel tanlashdagi istaklaridan kelib chiqib, uyingiz interyeriga mos tushadigan mebellarni tanlab beramiz..</ul>
                         <ul class="hero__link">Har bir mebelimiz ergonomik jihatdan hisob-kitob qilinadi. Oʻrtacha inson tanasiga moslab ishlab chiqaramiz.</ul>
                         <ul class="hero__link">Yevropa va Osiyodan keltirilgan eng yaxshi xom-ashyolarni ishlatamiz. Har bir mahsulot ustidan sifat nazoratini oʻtkazamiz.</ul>
-                        <button class="hero__button"> ARIXA QOLDIRISH</button>
+                        <button data-aos="fade-left" class="hero__button"><a href="#malumot"> ARIZA QOLDIRISH</a></button>
                     </div> 
                 </div>
             </div>
@@ -74,7 +75,7 @@
           <div class="add__container">
             <div class="add__item">
                 <h1 class="hero__h1">SIZ BILMAGAN HAQIQATLAR YOHUD DASTGOHDAN XONADONINGIZGACHA</h1>
-                <iframe width="860" height="515" src="https://www.youtube.com/embed/mGC1aD3ZKGk?si=j53t8b7mhHGSSL9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="add__frame" data-aos="fade-up" width="960" height="615" src="https://www.youtube.com/embed/mGC1aD3ZKGk?si=j53t8b7mhHGSSL9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </div>
           </div>
         </div>
@@ -86,14 +87,14 @@
                 <h1 class="hero__h1">BIZNING MUVAFFAQIYAT OMILLARIMIZ</h1>
                 <div class="condition__list">
                    <div class="condition__part">
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_266.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>YUQORI SIFAT</b>
                             <p>Eng sifatli va original xom ashyodan foydalanamiz. Xususan: Turkiya, Italiya, Germaniya, Ispaniya, Rossiya, Polьsha.</p>
                         </li>
                     </ul>
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_272.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>Xavfsiz yetkazamiz</b>
@@ -103,14 +104,14 @@
                     </ul>
                    </div>
                    <div class="condition__part">
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_268.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>Muddatga sodiqlik</b>
                             <p>Maxsulotni kelishilgan muddatdan 3 kun oldin bitirib, tayyorlab qoʼyamiz</p>
                         </li>
                     </ul>
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_271.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>Kafolat</b>
@@ -119,14 +120,14 @@
                     </ul>
                    </div>
                    <div class="condition__part">
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_269.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>Onlayn nazorat</b>
                             <p>Barcha buyurtmalarning onlayn nazorati va avtomatlashtirilgan dasturiy taʼminot. Hech kimni buyurtmasi nazoratdan chetda qolmaydi..</p>
                         </li>
                     </ul>
-                    <ul class="condition__item">
+                    <ul data-aos="fade-up" class="condition__item">
                         <img src="./image/Group_270.png" width="110" height="110">
                         <li class="condition__piece">
                             <b>Kuchli jamoa</b>
@@ -143,7 +144,7 @@
        <div class="container2">
         <h1 class="hero__h1">EXPORT QILADIGAN HUDUDLARIMIZ</h1>
         <div class="loc__container">
-            <img src="./image/image_1-min.png" width="700" height="600">
+            <img class="loc__img2" src="./image/image_1-min.png" width="800" height="600">
             <div class="loc__part">
                 <ul class="loc__item">
                     <img class="loc__img" src="./image/rossiya.png" width="65" height="65">
@@ -184,20 +185,20 @@
                 <h1 class="hero__h1">Mahsulotlarimiz Assortiment</h1>
                 <div class="image__part">
                     <ul class="image__item">
-                        <img class="image__img" src="./download1.jpg" width="730" height="500">
-                        <img class="image__img" src="./download2.jpg" width="350" height="500">
+                        <img data-aos="fade-right" class="image__img" src="./download1.jpg" width="730" height="500">
+                        <img data-aos="fade-left" class="image__img" src="./download2.jpg" width="350" height="500">
                     </ul>
                     <ul class="image__item">
-                        <img class="image__img" src="./images3.jpg" width="350" height="500">
-                        <img class="image__img" src="./images4.jpg" width="350" height="500">
-                        <img class="image__img" src="./images5.jpg" width="350" height="500">
+                        <img data-aos="fade-up" class="image__img" src="./images3.jpg" width="350" height="500">
+                        <img data-aos="fade-up" class="image__img" src="./images4.jpg" width="350" height="500">
+                        <img data-aos="fade-up" class="image__img" src="./images5.jpg" width="350" height="500">
                     </ul>
                     <ul class="image__item">
-                        <img class="image__img" src="./images6.jpg" width="350" height="500">
-                        <img class="image__img" src="./images7.jpg" width="730" height="500">
+                        <img data-aos="fade-right" class="image__img" src="./images6.jpg" width="350" height="500">
+                        <img data-aos="fade-left" class="image__img" src="./images7.jpg" width="730" height="500">
                     </ul>
                 </div>
-                <button class="hero__button"> ARIXA QOLDIRISH</button>
+                <button class="hero__button"> <a href="#malumot"> ARIZA QOLDIRISH</a></button>
             </div>
         </div>
     </div>
@@ -208,15 +209,15 @@
                 <h1 class="hero__h1">MIJOZLARIMIZ TOMONIDAN BERILGAN SHARHLAR</h1>
                 <div class="com__part">
                     <ul class="com__item">
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/L8RmeEA8h58?si=cK7n8aYQCANZ7jMO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/mm26Nzm3It0?si=UBlSGhsng9shn1bp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/M4qaNWmiKYM?si=PlMTdEmIhCdw8j8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/L8RmeEA8h58?si=cK7n8aYQCANZ7jMO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/mm26Nzm3It0?si=UBlSGhsng9shn1bp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/M4qaNWmiKYM?si=PlMTdEmIhCdw8j8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </ul>
                     <ul class="com__item">
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/KiWbfAIUVgg?si=AUw9NkM6xYqQyN-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/115tlEvwbX8?si=ccy5oSrDxB06xRpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        <iframe width="340" height="215" src="https://www.youtube.com/embed/KvC_m_XhNdk?si=83UffTOzmD7Fq2w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </ul>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/KiWbfAIUVgg?si=AUw9NkM6xYqQyN-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/115tlEvwbX8?si=ccy5oSrDxB06xRpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe class="com__frame" width="340" height="215" src="https://www.youtube.com/embed/KvC_m_XhNdk?si=83UffTOzmD7Fq2w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </ul> 
                 </div>
             </div>
         </div>
@@ -225,7 +226,7 @@
     <div class="info">
         <div class="container2">
             <div class="info__container">
-                <h1 class="info__h1">MA'LUMOTLARINGIZNI QOLDIRING</h1>
+                <h1 class="info__h1" id="malumot">MA'LUMOTLARINGIZNI QOLDIRING</h1>
                 <div class="info__part">
                     <form action="/action_page.php">
                         <label for="fname">ismingiz:</label>
@@ -270,11 +271,63 @@
                         <input type="radio" id="fname" name="fname"><br>
                         <label for="fname">1-3 oy ichida</label>
                         <input type="radio" id="fname" name="fname"><br>
-                        <input class="input2" type="submit" value="yuborish"
+                        <input class="input2" type="submit" value="yuborish">
                       </form>
                 </div>
             </div>
         </div>
     </div>
+    <!-- -----------------------------------------------------------over------------------------------------------------ -->
+    <div class="over">
+        <div class="container2">
+            <div class="over__container">
+                <h1 class="hero__h1">KO'P BERILADIGAN SAVOLLAR</h1>
+                <div class="over__part">
+                    <ul data-aos="fade-up" class="over__item">
+                        <h2 class="over__h2">Qanchadan vaqtdan buyon faoliyat yuritasizlar?</h2>
+                        <li class="over__li"><b class="over__b">+</b></li>
+                    </ul>
+                    <ul data-aos="fade-up" class="over__item">
+                        <h2 class="over__h2">Manzilingiz qayerda joylashgan?</h2>
+                        <li class="over__li"><b class="over__b">+</b></li>
+                    </ul>
+                    <ul data-aos="fade-up" class="over__item">
+                        <h2 class="over__h2">Ishlatadigan xom ashyolaringiz qayerniki?
+                        </h2>
+                        <li class="over__li"><b class="over__b">+</b></li>
+                    </ul>
+                    <ul data-aos="fade-up" class="over__item">
+                        <h2 class="over__h2">Kredit yoki muddatli to'lovga mebellarni sotib olsak bo'ladi?
+                        </h2>
+                        <li class="over__li"><b class="over__b">+</b></li>
+                    </ul>
+                    <ul data-aos="fade-up" class="over__item">
+                        <h2 class="over__h2">Eski mebelimni tamirlab bera olasizlarmi?</h2>
+                        <li class="over__li"><b class="over__b">+</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------end----------------------------------------------------- -->
+    <div class="end">
+        <div class="container2">
+            <div class="end__container">
+                <div class="end__part">
+                    <h3 class="end__h3">Dasturchi: G'ayratov Javohir</h3>
+                <a href="https://www.instagram.com/javokhir_1105?utm_source=qr&igsh=cWxmMHE3YjNsNDRz"><img src="./image/download9.jpg" width="40" height="40"></a>
+                <a class="end__a" href="#menu">yuqoriga</a>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="black__container">
+        <i>.</i>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
